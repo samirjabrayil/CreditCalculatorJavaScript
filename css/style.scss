@@ -1,0 +1,55 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #8bc3ff;
+    flex-direction: column;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 2px solid #357CCA;
+    border-radius: 4px;
+
+    &::placeholder {
+        color: #2a6aaf;
+        font-size: 10px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: #357CCA;
+    color: #fff;
+    border-radius: 4px;
+    transition: 0.4s;
+
+    &:hover {
+        color: #ebebeb;
+        background-color: #2a6099;
+    }
+}
+
+#Payment {
+    margin-top: 20px;
+
+    span {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: large;
+    }
+}
+#Monthly {
+    margin-top: 20px;
+
+    span {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: large;
+    }
+}

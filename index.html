@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <input id="mebleg" type="text" placeholder="Kredit məbləği">
+    <br>
+    <input id="faiz" type="text" placeholder="Faiz dərəcəsi">
+    <br>
+    <input id="ay" type="text" placeholder="Kredit müddəti">
+    <br>
+    <button onclick="Hesab()">Kredit alın</button>
+    <div id="Payment">
+        <span>Ümumi ödəniləcək məbləğ:</span>
+        <span id="umumi_mebleg"></span>
+        <span id="money"></span>
+    </div>
+    <div id="Monthly">
+        <span>Aylıq ödəniş məbləği:</span>
+        <span id="ayliq"></span>
+        <span id="money2"></span>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
